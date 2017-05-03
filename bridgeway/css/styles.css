@@ -1,0 +1,14 @@
+.map-container {
+  height: 300px;
+  padding: 0;
+}
+
+#location {
+  height: 250px;
+  padding-top: 60px;
+}
+
+#map {
+	height: 100%;
+	pointer-events: none;
+}

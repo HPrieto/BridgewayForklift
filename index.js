@@ -13,7 +13,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/home', function(req, res) {
-	res.sendFile(__dirname + '/bridgeway/index.html')
+	res.sendFile(__dirname + '/bridgeway/index.html');
 });
 
 //listen to port
